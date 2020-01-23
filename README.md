@@ -17,7 +17,7 @@ spacing, fonts, etc), and `sty` (misc. `latex` formatting) files in the `ms`
 folder as needed to produce rendered manuscripts with appropriate styling for 
 your journal of choice without the need to edit the `Rmd` file (hardly). 
 
-For details, see the `Rmd` file and the rendered output of this example.
+For details, see the `Rmd` file and the [rendered output of this example](https://github.com/joelnitta/ms_template/blob/master/example_output/ms.pdf).
 
 ## Dependencies
 
