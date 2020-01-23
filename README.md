@@ -12,8 +12,8 @@ Rendered output will show up in the `results` folder in `pdf` and `docx` format.
 
 ## Adjusting styles
 
-Adjust the `csl` (bibliography style), `docx` (MS Word format such as line 
-spacing, fonts, etc), and `sty` (misc. `latex` formatting) files in the `ms` 
+Adjust the `*.csl` (bibliography style), `*.docx` (MS Word format such as line 
+spacing, fonts, etc), and `*.sty` (misc. `latex` formatting) files in the `ms` 
 folder as needed to produce rendered manuscripts with appropriate styling for 
 your journal of choice without the need to edit the `Rmd` file (hardly). 
 
