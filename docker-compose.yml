@@ -1,0 +1,11 @@
+version: "3"
+services:
+  rmd:
+    image: rocker/verse:3.6.2
+    ports:
+      - "8787:8787"
+    volumes:
+      - ".:/home/rstudio/ms_template"
+    environment:
+      DISABLE_AUTH: "true"
+    working_dir: /home/rstudio/ms_template
