@@ -1,6 +1,6 @@
 # ms_template
 
-An example repository for automated creation of scientific manuscripts in `pdf` 
+An example repository for automated rendering of scientific manuscripts in `pdf` 
 and Microsoft Word format for submission to journals.
 
 ## Rendering manuscripts
