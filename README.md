@@ -1,23 +1,24 @@
 # ms_template
 
-An example repository for automated creation of scientific manuscripts in `pdf` 
+An example repository for automated creation of scientific manuscripts in `pdf`
 and Microsoft Word format for submission to journals.
 
 ## Rendering manuscripts
 
-To render the manuscript, run `render.R` in the `code` folder: 
+To render the manuscript, run `render.R` in the `code` folder:
 `Rscript code/render.R`.
 
 Rendered output will show up in the `results` folder in `pdf` and `docx` format.
 
 ## Adjusting styles
 
-Adjust the `csl` (bibliography style), `docx` (MS Word format such as line 
-spacing, fonts, etc), and `sty` (misc. `latex` formatting) files in the `ms` 
-folder as needed to produce rendered manuscripts with appropriate styling for 
-your journal of choice without the need to edit the `Rmd` file (hardly). 
+Adjust the `csl` (bibliography style), `docx` (MS Word format such as line
+spacing, fonts, etc), and `sty` (misc. `latex` formatting) files in the `ms`
+folder as needed to produce rendered manuscripts with appropriate styling for
+your journal of choice without the need to edit the `Rmd` file (hardly). The
+example style is set to [*New Phytologist*](https://nph.onlinelibrary.wiley.com/journal/14698137).
 
-For details, see the `Rmd` file and the [rendered output of this example](https://github.com/joelnitta/ms_template/blob/master/example_output/ms.pdf).
+For details, see the `Rmd` file and the [rendered output of this example](https://github.com/joelnitta/ms_template/blob/master/example_output/ms.pdf). Also, [this blog post](https://www.joelnitta.com/post/rmd-to-docx/).
 
 ## Dependencies
 
@@ -25,14 +26,14 @@ Basically, `R`, various `R` packages, `pandoc`, and `latex`. But see below.
 
 ## Running with Docker
 
-Rather than specify all the various dependencies needed in detail, [I recommend 
+Rather than specify all the various dependencies needed in detail, [I recommend
 using this Docker image](https://hub.docker.com/r/rocker/verse) from the [Rocker
 project](https://www.rocker-project.org/).
 
-To use it, first [install Docker](https://docs.docker.com/install/) and clone 
+To use it, first [install Docker](https://docs.docker.com/install/) and clone
 this repository.
 
-Navigate to the cloned repository (where `/path/to/repo` is the path on your 
+Navigate to the cloned repository (where `/path/to/repo` is the path on your
 machine), and launch the container:
 
 ```
